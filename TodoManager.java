@@ -13,17 +13,14 @@ public class TodoManager {
             System.out.println("No tasks available.");
             return;
         }
+        System.out.println("\nCurrent Tasks:");
         for (Todo todo : todos) {
             System.out.println(todo);
         }
     }
 
-    public void deleteTask(int id) {
+    public boolean deleteTask(int id) {
         boolean removed = todos.removeIf(todo -> todo.getId() == id);
-        if (removed) {
-            System.out.println("Task deleted.");
-        } else {
-            System.out.println("Task not found.");
-        }
+        return removed;
     }
 }
