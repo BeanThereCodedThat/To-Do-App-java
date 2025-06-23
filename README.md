@@ -12,9 +12,9 @@ A simple Java console app that lets you add, view, update, and delete to-do task
 - Java (Core)
 
 ## What’s next?
-- Add a graphical interface  
-- Save tasks to a file  
-- Add reminders and deadlines
+- A graphical interface  
+- Saving tasks to a file  
+- Adding reminders and deadlines
 
 ---
 
